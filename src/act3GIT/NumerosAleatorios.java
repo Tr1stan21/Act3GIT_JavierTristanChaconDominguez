@@ -33,6 +33,8 @@ public class NumerosAleatorios {
 		int numero1 = Integer.parseInt(scanner.nextLine());
 		System.out.println("Introduza el segundo número límite: ");
 		int numero2 = Integer.parseInt(scanner.nextLine());
+		System.out.println("Introduza un tercer número: ");
+		int numero3 = Integer.parseInt(scanner.nextLine());
 		
 		if (numero1 > numero2) {
 			for (int i = numero2; i <= numero1; i+=7) {
@@ -46,6 +48,9 @@ public class NumerosAleatorios {
 		}
 		else {
 			System.out.println("Los numeros límite introducidos son iguales");
+		}
+		if (((numero3 > numero1) && (numero3 < numero2)) || ((numero3 < numero1) && (numero3 > numero2))) {
+			System.out.println(numero3);
 		}
 		
 		scanner.close();
