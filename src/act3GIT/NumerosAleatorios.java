@@ -31,9 +31,9 @@ public class NumerosAleatorios {
 		
 		System.out.println("Introduzca un número límite: ");
 		int numero1 = Integer.parseInt(scanner.nextLine());
-		System.out.println("Introduza el segundo número límite: ");
+		System.out.println("Introduzca el segundo número límite: ");
 		int numero2 = Integer.parseInt(scanner.nextLine());
-		System.out.println("Introduza un tercer número: ");
+		System.out.println("Introduzca un tercer número: ");
 		int numero3 = Integer.parseInt(scanner.nextLine());
 		
 		if (numero1 > numero2) {
