@@ -14,7 +14,6 @@ public class NumerosAleatorios {
 	    Random random = new Random();
 	    
 	    int valor;
-	    int valor2;
 	    
 	    for (int i = 0; i < 30; i++) {
 	   	 valor = random.nextInt(11);
